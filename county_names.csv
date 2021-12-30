@@ -1,0 +1,590 @@
+﻿state,county_name,STATEFIP,COUNTYICP,COUNTYFIP
+Alabama,Baldwin,01,0030,003
+Alabama,Calhoun/Benton,01,0150,015
+Alabama,Dallas,01,0470,047
+Alabama,Etowah,01,0550,055
+Alabama,Jefferson,01,0730,073
+Alabama,Lee,01,0810,081
+Alabama,Madison,01,0890,089
+Alabama,Mobile,01,0970,097
+Alabama,Montgomery,01,1010,101
+Alabama,Shelby,01,1170,117
+Alabama,Talladega,01,1210,121
+Alabama,Tuscaloosa,01,1250,125
+Alabama,Walker,01,1270,127
+Alaska,Anchorage,02,0200,020
+Arizona,Coconino,04,0050,005
+Arizona,Maricopa,04,0130,013
+Arizona,Pima,04,0190,019
+Arizona,Yavapai,04,0250,025
+Arizona,Yuma,04,0270,027
+Arkansas,Benton,05,0070,007
+Arkansas,Pulaski,05,1190,119
+Arkansas,Saline,05,1250,125
+Arkansas,Washington,05,1430,143
+California,Alameda,06,0010,001
+California,Butte,06,0070,007
+California,Contra Costa,06,0130,013
+California,El Dorado,06,0170,017
+California,Fresno,06,0190,019
+California,Humboldt,06,0230,023
+California,Imperial,06,0250,025
+California,Kern,06,0290,029
+California,Kings,06,0310,031
+California,Los Angeles,06,0370,037
+California,Madera,06,0390,039
+California,Marin,06,0410,041
+California,Merced,06,0470,047
+California,Monterey,06,0530,053
+California,Napa,06,0550,055
+California,Orange,06,0590,059
+California,Placer,06,0610,061
+California,Riverside,06,0650,065
+California,Sacramento,06,0670,067
+California,San Bernardino,06,0710,071
+California,San Diego,06,0730,073
+California,San Francisco,06,0750,075
+California,San Joaquin,06,0770,077
+California,San Luis Obispo,06,0790,079
+California,San Mateo,06,0810,081
+California,Santa Barbara,06,0830,083
+California,Santa Clara,06,0850,085
+California,Santa Cruz,06,0870,087
+California,Shasta,06,0890,089
+California,Solano,06,0950,095
+California,Sonoma,06,0970,097
+California,Stanislaus,06,0990,099
+California,Tulare,06,1070,107
+California,Ventura,06,1110,111
+California,Yolo,06,1130,113
+Colorado,Adams,08,0010,001
+Colorado,Arapahoe,08,0050,005
+Colorado,Boulder,08,0130,013
+Colorado,Denver,08,0310,031
+Colorado,El Paso,08,0410,041
+Colorado,Jefferson,08,0590,059
+Colorado,Larimer,08,0690,069
+Colorado,Pueblo,08,1010,101
+Colorado,Weld,08,1230,123
+Connecticut,Fairfield,09,0010,001
+Connecticut,Hartford,09,0030,003
+Connecticut,Litchfield,09,0050,005
+Connecticut,Middlesex,09,0070,007
+Connecticut,New Haven,09,0090,009
+Connecticut,New London,09,0110,011
+Connecticut,Tolland,09,0130,013
+Connecticut,Windham,09,0150,015
+Delaware,Kent,10,0010,001
+Delaware,New Castle,10,0030,003
+Delaware,Sussex,10,0050,005
+District of Columbia,District of Columbia,11,0010,001
+Florida,Alachua,12,0010,001
+Florida,Bay,12,0050,005
+Florida,Brevard/St Lucie,12,0090,009
+Florida,Broward,12,0110,011
+Florida,Charlotte,12,0150,015
+Florida,Citrus,12,0170,017
+Florida,Clay,12,0190,019
+Florida,Collier,12,0210,021
+Florida,Duval,12,0310,031
+Florida,Escambia,12,0330,033
+Florida,Hernando/Benton,12,0530,053
+Florida,Hillsborough,12,0570,057
+Florida,Indian River,12,0610,061
+Florida,Lake,12,0690,069
+Florida,Lee,12,0710,071
+Florida,Leon,12,0730,073
+Florida,Manatee,12,0810,081
+Florida,Marion,12,0830,083
+Florida,Martin,12,0850,085
+Florida,Dade/Miami-Dade,12,0250,086
+Florida,Okaloosa,12,0910,091
+Florida,Orange/Mesquito,12,0950,095
+Florida,Osceola,12,0970,097
+Florida,Palm Beach,12,0990,099
+Florida,Pasco,12,1010,101
+Florida,Pinellas,12,1030,103
+Florida,Polk,12,1050,105
+Florida,St Johns,12,1090,109
+Florida,St Lucie,12,1110,111
+Florida,Santa Rosa,12,1130,113
+Florida,Sarasota,12,1150,115
+Florida,Seminole,12,1170,117
+Florida,Volusia,12,1270,127
+Georgia,Bartow/Cass,13,0150,015
+Georgia,Bibb,13,0210,021
+Georgia,Carroll,13,0450,045
+Georgia,Chatham,13,0510,051
+Georgia,Cherokee,13,0570,057
+Georgia,Clarke,13,0590,059
+Georgia,Clayton,13,0630,063
+Georgia,Cobb,13,0670,067
+Georgia,Columbia,13,0730,073
+Georgia,Coweta,13,0770,077
+Georgia,De Kalb,13,0890,089
+Georgia,Douglas,13,0970,097
+Georgia,Fayette,13,1130,113
+Georgia,Forsyth,13,1170,117
+Georgia,Fulton,13,1210,121
+Georgia,Gwinnett,13,1350,135
+Georgia,Hall,13,1390,139
+Georgia,Henry,13,1510,151
+Georgia,Lowndes,13,1850,185
+Georgia,Muscogee,13,2150,215
+Georgia,Paulding,13,2230,223
+Georgia,Richmond,13,2450,245
+Georgia,Whitfield,13,3130,313
+Hawaii,Hawaii,15,0010,001
+Hawaii,Honolulu,15,0030,003
+Idaho,Ada,16,0010,001
+Idaho,Bonneville,16,0190,019
+Idaho,Canyon,16,0270,027
+Illinois,Adams,17,0010,001
+Illinois,Champaign,17,0190,019
+Illinois,Cook,17,0310,031
+Illinois,De Kalb,17,0370,037
+Illinois,Du Page,17,0430,043
+Illinois,Kane,17,0890,089
+Illinois,Kankakee,17,0910,091
+Illinois,Knox,17,0950,095
+Illinois,Lake,17,0970,097
+Illinois,LaSalle,17,0990,099
+Illinois,McHenry,17,1110,111
+Illinois,McLean,17,1130,113
+Illinois,Macon,17,1150,115
+Illinois,Madison,17,1190,119
+Illinois,Peoria,17,1430,143
+Illinois,Rock Island,17,1610,161
+Illinois,St Clair,17,1630,163
+Illinois,Sangamon,17,1670,167
+Illinois,Tazewell,17,1790,179
+Illinois,Vermilion,17,1830,183
+Illinois,Will,17,1970,197
+Illinois,Winnebago,17,2010,201
+Indiana,Allen,18,0030,003
+Indiana,Clark,18,0190,019
+Indiana,Delaware,18,0350,035
+Indiana,Elkhart,18,0390,039
+Indiana,Hendricks,18,0630,063
+Indiana,Johnson,18,0810,081
+Indiana,Lake,18,0890,089
+Indiana,La Porte,18,0910,091
+Indiana,Madison,18,0950,095
+Indiana,Marion,18,0970,097
+Indiana,Monroe,18,1050,105
+Indiana,Porter,18,1270,127
+Indiana,St Joseph,18,1410,141
+Indiana,Tippecanoe,18,1570,157
+Indiana,Vanderburgh,18,1630,163
+Indiana,Vigo,18,1670,167
+Indiana,Wayne,18,1770,177
+Iowa,Black Hawk,19,0130,013
+Iowa,Johnson,19,1030,103
+Iowa,Linn,19,1130,113
+Iowa,Polk,19,1530,153
+Iowa,Scott,19,1630,163
+Iowa,Woodbury,19,1930,193
+Kansas,Douglas,20,0450,045
+Kansas,Johnson,20,0910,091
+Kansas,Saline,20,1690,169
+Kansas,Sedgwick,20,1730,173
+Kansas,Shawnee,20,1770,177
+Kansas,Wyandotte,20,2090,209
+Kentucky,Boone,21,0150,015
+Kentucky,Boyd,21,0190,019
+Kentucky,Fayette,21,0670,067
+Kentucky,Jefferson,21,1110,111
+Kentucky,Kenton,21,1170,117
+Kentucky,McCracken,21,1450,145
+Kentucky,Pike,21,1950,195
+Kentucky,Warren,21,2270,227
+Louisiana,Ascension,22,0050,005
+Louisiana,Caddo,22,0170,017
+Louisiana,Calcasieu,22,0190,019
+Louisiana,East Baton Rouge,22,0330,033
+Louisiana,Jefferson,22,0510,051
+Louisiana,Lafayette,22,0550,055
+Louisiana,Orleans,22,0710,071
+Louisiana,Ouachita,22,0730,073
+Louisiana,Rapides,22,0790,079
+Louisiana,St Tammany,22,1030,103
+Louisiana,Tangipahoa,22,1050,105
+Louisiana,Terrebonne,22,1090,109
+Maine,Androscoggin,23,0010,001
+Maine,Cumberland,23,0050,005
+Maine,Kennebec,23,0110,011
+Maine,Penobscot,23,0190,019
+Maine,York,23,0310,031
+Maryland,Anne Arundel,24,0030,003
+Maryland,Baltimore,24,0050,005
+Maryland,Carroll,24,0110,013
+Maryland,Cecil,24,0130,015
+Maryland,Charles,24,0150,017
+Maryland,Frederick,24,0190,021
+Maryland,Garrett,24,0210,023
+Maryland,Harford,24,0230,025
+Maryland,Howard,24,0250,027
+Maryland,Montgomery,24,0290,031
+Maryland,Prince Georges,24,0310,033
+Maryland,Washington,24,0410,043
+Maryland,Wicomico,24,0430,045
+Maryland,Baltimore City,24,5100,510
+Massachusetts,Berkshire,25,0030,003
+Massachusetts,Bristol,25,0050,005
+Massachusetts,Essex,25,0090,009
+Massachusetts,Franklin,25,0110,011
+Massachusetts,Hampden,25,0130,013
+Massachusetts,Hampshire,25,0150,015
+Massachusetts,Middlesex,25,0170,017
+Massachusetts,Norfolk,25,0210,021
+Massachusetts,Plymouth,25,0230,023
+Massachusetts,Suffolk,25,0250,025
+Massachusetts,Worcester,25,0270,027
+Michigan,Allegan,26,0050,005
+Michigan,Bay,26,0170,017
+Michigan,Berrien,26,0210,021
+Michigan,Calhoun,26,0250,025
+Michigan,Genesee,26,0490,049
+Michigan,Ingham,26,0650,065
+Michigan,Jackson,26,0750,075
+Michigan,Kalamazoo,26,0770,077
+Michigan,Kent,26,0810,081
+Michigan,Livingston,26,0930,093
+Michigan,Macomb,26,0990,099
+Michigan,Midland,26,1110,111
+Michigan,Monroe,26,1150,115
+Michigan,Muskegon,26,1210,121
+Michigan,Oakland,26,1250,125
+Michigan,Ottawa,26,1390,139
+Michigan,Saginaw,26,1450,145
+Michigan,St Clair,26,1470,147
+Michigan,Washtenaw,26,1610,161
+Michigan,Wayne,26,1630,163
+Minnesota,Anoka,27,0030,003
+Minnesota,Dakota,27,0370,037
+Minnesota,Hennepin,27,0530,053
+Minnesota,Olmsted,27,1090,109
+Minnesota,Ramsey,27,1230,123
+Minnesota,St Louis,27,1370,137
+Minnesota,Stearns,27,1450,145
+Minnesota,Washington,27,1630,163
+Minnesota,Wright,27,1710,171
+Mississippi,Bolivar,28,0110,011
+Mississippi,De Soto,28,0330,033
+Mississippi,Harrison,28,0470,047
+Mississippi,Hinds,28,0490,049
+Mississippi,Jackson,28,0590,059
+Mississippi,Rankin,28,1210,121
+Mississippi,Washington,28,1510,151
+Missouri,Boone,29,0190,019
+Missouri,Franklin,29,0710,071
+Missouri,Greene,29,0770,077
+Missouri,Jackson,29,0950,095
+Missouri,Jefferson,29,0990,099
+Missouri,St Charles,29,1830,183
+Missouri,St Louis,29,1890,189
+Missouri,St Louis City,29,5100,510
+Montana,Cascade,30,0130,013
+Montana,Yellowstone,30,1110,111
+Nebraska,Douglas,31,0550,055
+Nebraska,Lancaster,31,1090,109
+Nebraska,Sarpy,31,1530,153
+Nevada,Clark,32,0030,003
+Nevada,Washoe,32,0310,031
+New Hampshire,Hillsborough,33,0110,011
+New Hampshire,Merrimack,33,0130,013
+New Hampshire,Rockingham,33,0150,015
+New Hampshire,Strafford,33,0170,017
+New Jersey,Atlantic,34,0010,001
+New Jersey,Bergen,34,0030,003
+New Jersey,Burlington,34,0050,005
+New Jersey,Camden,34,0070,007
+New Jersey,Cape May,34,0090,009
+New Jersey,Cumberland,34,0110,011
+New Jersey,Essex,34,0130,013
+New Jersey,Gloucester,34,0150,015
+New Jersey,Hudson,34,0170,017
+New Jersey,Hunterdon,34,0190,019
+New Jersey,Mercer,34,0210,021
+New Jersey,Middlesex,34,0230,023
+New Jersey,Monmouth,34,0250,025
+New Jersey,Morris,34,0270,027
+New Jersey,Ocean,34,0290,029
+New Jersey,Passaic,34,0310,031
+New Jersey,Somerset,34,0350,035
+New Jersey,Sussex,34,0370,037
+New Jersey,Union,34,0390,039
+New Jersey,Warren,34,0410,041
+New Mexico,Bernalillo,35,0010,001
+New Mexico,Dona Ana,35,0130,013
+New Mexico,Eddy,35,0150,015
+New Mexico,Lea,35,0250,025
+New Mexico,Sandival,35,0430,043
+New Mexico,San Juan,35,0450,045
+New Mexico,Santa Fe,35,0490,049
+New York,Albany,36,0010,001
+New York,Bronx,36,0050,005
+New York,Broome,36,0070,007
+New York,Chautauqua,36,0130,013
+New York,Clinton,36,0190,019
+New York,Dutchess,36,0270,027
+New York,Erie,36,0290,029
+New York,Jefferson,36,0450,045
+New York,Kings,36,0470,047
+New York,Monroe,36,0550,055
+New York,Montgomery,36,0570,057
+New York,Nassau,36,0590,059
+New York,New York,36,0610,061
+New York,Niagara,36,0630,063
+New York,Oneida,36,0650,065
+New York,Onondaga,36,0670,067
+New York,Ontario,36,0690,069
+New York,Orange,36,0710,071
+New York,Oswego,36,0750,075
+New York,Otsego,36,0770,077
+New York,Queens,36,0810,081
+New York,Rensselaer,36,0830,083
+New York,Richmond,36,0850,085
+New York,Rockland,36,0870,087
+New York,St Lawrence,36,0890,089
+New York,Saratoga,36,0910,091
+New York,Schenectady,36,0930,093
+New York,Suffolk,36,1030,103
+New York,Tompkins,36,1090,109
+New York,Ulster,36,1110,111
+New York,Westchester,36,1190,119
+North Carolina,Alamance,37,0010,001
+North Carolina,Brunswick,37,0190,019
+North Carolina,Buncombe,37,0210,021
+North Carolina,Burke,37,0230,023
+North Carolina,Cabarrus,37,0250,025
+North Carolina,Catawba,37,0350,035
+North Carolina,Cleveland,37,0450,045
+North Carolina,Craven,37,0490,049
+North Carolina,Cumberland,37,0510,051
+North Carolina,Davidson,37,0570,057
+North Carolina,Durham,37,0630,063
+North Carolina,Edgecombe,37,0650,065
+North Carolina,Forsyth,37,0670,067
+North Carolina,Gaston,37,0710,071
+North Carolina,Guilford,37,0810,081
+North Carolina,Harnett,37,0850,085
+North Carolina,Iredell,37,0970,097
+North Carolina,Johnston,37,1010,101
+North Carolina,Mecklenburg,37,1190,119
+North Carolina,Nash,37,1270,127
+North Carolina,New Hanover,37,1290,129
+North Carolina,Onslow,37,1330,133
+North Carolina,Orange,37,1350,135
+North Carolina,Pitt,37,1470,147
+North Carolina,Randolph,37,1510,151
+North Carolina,Robeson,37,1550,155
+North Carolina,Rowan,37,1590,159
+North Carolina,Union,37,1790,179
+North Carolina,Wake,37,1830,183
+North Carolina,Wayne,37,1910,191
+North Carolina,Wilson,37,1950,195
+North Dakota,Cass,38,0170,017
+Ohio,Allen,39,0030,003
+Ohio,Ashtabula,39,0070,007
+Ohio,Butler,39,0170,017
+Ohio,Clark,39,0230,023
+Ohio,Clermont,39,0250,025
+Ohio,Columbiana,39,0290,029
+Ohio,Cuyahoga,39,0350,035
+Ohio,Delaware,39,0410,041
+Ohio,Erie,39,0430,043
+Ohio,Fairfield,39,0450,045
+Ohio,Franklin,39,0490,049
+Ohio,Greene,39,0570,057
+Ohio,Hamilton,39,0610,061
+Ohio,Lake,39,0850,085
+Ohio,Lawrence,39,0870,087
+Ohio,Licking,39,0890,089
+Ohio,Lorain,39,0930,093
+Ohio,Lucas,39,0950,095
+Ohio,Mahoning,39,0990,099
+Ohio,Marion,39,1010,101
+Ohio,Medina,39,1030,103
+Ohio,Miami,39,1090,109
+Ohio,Montgomery,39,1130,113
+Ohio,Portage,39,1330,133
+Ohio,Richland,39,1390,139
+Ohio,Seneca,39,1470,147
+Ohio,Stark,39,1510,151
+Ohio,Summit,39,1530,153
+Ohio,Trumbull,39,1550,155
+Ohio,Tuscarawas,39,1570,157
+Ohio,Warren,39,1650,165
+Ohio,Wayne,39,1690,169
+Ohio,Wood,39,1730,173
+Oklahoma,Canadian,40,0170,017
+Oklahoma,Cleveland,40,0270,027
+Oklahoma,Comanche,40,0310,031
+Oklahoma,Kay,40,0710,071
+Oklahoma,Oklahoma,40,1090,109
+Oklahoma,Tulsa,40,1430,143
+Oregon,Clackamas,41,0050,005
+Oregon,Deschutes,41,0170,017
+Oregon,Douglas,41,0190,019
+Oregon,Jackson,41,0290,029
+Oregon,Lane,41,0390,039
+Oregon,Marion,41,0470,047
+Oregon,Multnomah,41,0510,051
+Oregon,Washington,41,0670,067
+Pennsylvania,Adams,42,0010,001
+Pennsylvania,Allegheny,42,0030,003
+Pennsylvania,Armstrong,42,0050,005
+Pennsylvania,Beaver,42,0070,007
+Pennsylvania,Berks,42,0110,011
+Pennsylvania,Blair,42,0130,013
+Pennsylvania,Bucks,42,0170,017
+Pennsylvania,Butler,42,0190,019
+Pennsylvania,Cambria,42,0210,021
+Pennsylvania,Centre,42,0270,027
+Pennsylvania,Chester,42,0290,029
+Pennsylvania,Dauphin,42,0430,043
+Pennsylvania,Delaware,42,0450,045
+Pennsylvania,Erie,42,0490,049
+Pennsylvania,Fayette,42,0510,051
+Pennsylvania,Franklin,42,0550,055
+Pennsylvania,Indiana,42,0630,063
+Pennsylvania,Lackawanna,42,0690,069
+Pennsylvania,Lancaster,42,0710,071
+Pennsylvania,Lawrence,42,0730,073
+Pennsylvania,Lebanon,42,0750,075
+Pennsylvania,Lehigh,42,0770,077
+Pennsylvania,Luzerne,42,0790,079
+Pennsylvania,Lycoming,42,0810,081
+Pennsylvania,McKean,42,0830,083
+Pennsylvania,Mercer,42,0850,085
+Pennsylvania,Monroe,42,0890,089
+Pennsylvania,Montgomery,42,0910,091
+Pennsylvania,Northampton,42,0950,095
+Pennsylvania,Philadelphia,42,1010,101
+Pennsylvania,Schuylkill,42,1070,107
+Pennsylvania,Somerset,42,1110,111
+Pennsylvania,Washington,42,1250,125
+Pennsylvania,Westmoreland,42,1290,129
+Pennsylvania,York,42,1330,133
+Rhode Island,Kent,44,0030,003
+Rhode Island,Providence,44,0070,007
+Rhode Island,Washington,44,0090,009
+South Carolina,Aiken,45,0030,003
+South Carolina,Anderson,45,0070,007
+South Carolina,Berkeley,45,0150,015
+South Carolina,Charleston,45,0190,019
+South Carolina,Darlington,45,0310,031
+South Carolina,Florence,45,0410,041
+South Carolina,Greenville,45,0450,045
+South Carolina,Horry,45,0510,051
+South Carolina,Lexington,45,0630,063
+South Carolina,Richland,45,0790,079
+South Carolina,Spartanburg,45,0830,083
+South Carolina,Sumter,45,0850,085
+South Carolina,York,45,0910,091
+South Dakota,Minnehaha,46,0990,099
+Tennessee,Blount,47,0090,009
+Tennessee,Davidson,47,0370,037
+Tennessee,Hamilton,47,0650,065
+Tennessee,Knox,47,0930,093
+Tennessee,Montgomery,47,1250,125
+Tennessee,Rutherford,47,1490,149
+Tennessee,Shelby,47,1570,157
+Tennessee,Sullivan,47,1630,163
+Tennessee,Sumner,47,1650,165
+Tennessee,Washington,47,1790,179
+Tennessee,Williamson,47,1870,187
+Tennessee,Wilson,47,1890,189
+Texas,Bell,48,0270,027
+Texas,Bexar,48,0290,029
+Texas,Brazoria,48,0390,039
+Texas,Brazos,48,0410,041
+Texas,Cameron,48,0610,061
+Texas,Collin,48,0850,085
+Texas,Comal,48,0910,091
+Texas,Dallas,48,1130,113
+Texas,Denton,48,1210,121
+Texas,Ector,48,1350,135
+Texas,Ellis,48,1390,139
+Texas,El Paso,48,1410,141
+Texas,Fort Bend,48,1570,157
+Texas,Galveston,48,1670,167
+Texas,Gregg,48,1830,183
+Texas,Guadalupe,48,1870,187
+Texas,Harris,48,2010,201
+Texas,Hays,48,2090,209
+Texas,Hidalgo,48,2150,215
+Texas,Jefferson,48,2450,245
+Texas,Johnson,48,2510,251
+Texas,Kaufman,48,2570,257
+Texas,Lubbock,48,3030,303
+Texas,McLennan,48,3090,309
+Texas,Midland,48,3290,329
+Texas,Montgomery,48,3390,339
+Texas,Nueces,48,3550,355
+Texas,Parker,48,3670,367
+Texas,Potter,48,3750,375
+Texas,Randall,48,3810,381
+Texas,Smith,48,4230,423
+Texas,Tarrant,48,4390,439
+Texas,Taylor,48,4410,441
+Texas,Tom Green,48,4510,451
+Texas,Travis,48,4530,453
+Texas,Webb,48,4790,479
+Texas,Wichita,48,4850,485
+Texas,Williamson,48,4910,491
+Utah,Davis,49,0110,011
+Utah,Salt Lake,49,0350,035
+Utah,Utah,49,0490,049
+Utah,Washington,49,0530,053
+Utah,Weber,49,0570,057
+Vermont,Chittenden,50,0070,007
+Virginia,Arlington/Alexandria,51,0130,013
+Virginia,Chesterfield,51,0410,041
+Virginia,Henrico,51,0870,087
+Virginia,Loudoun,51,1070,107
+Virginia,Alexandria City,51,5100,510
+Virginia,Chesapeake City,51,5500,550
+Virginia,Hampton,51,6500,650
+Virginia,Lynchburg City,51,6800,680
+Virginia,Newport News,51,7000,700
+Virginia,Norfolk City,51,7100,710
+Virginia,Portsmouth,51,7400,740
+Virginia,Richmond City,51,7600,760
+Virginia,Roanoke City,51,7700,770
+Virginia,Virginia Beach City,51,8100,810
+Washington,Benton,53,0050,005
+Washington,Clark,53,0110,011
+Washington,Grays Harbor/Cheh,53,0270,027
+Washington,King,53,0330,033
+Washington,Kitsap,53,0350,035
+Washington,Pierce,53,0530,053
+Washington,Snohomish,53,0610,061
+Washington,Spokane,53,0630,063
+Washington,Thurston,53,0670,067
+Washington,Whatcom,53,0730,073
+Washington,Yakima,53,0770,077
+West Virginia,Cabell,54,0110,011
+West Virginia,Logan,54,0450,045
+West Virginia,Marion,54,0490,049
+West Virginia,Mercer,54,0550,055
+West Virginia,Wood,54,1070,107
+Wisconsin,Brown,55,0090,009
+Wisconsin,Dane,55,0250,025
+Wisconsin,Dodge,55,0270,027
+Wisconsin,Fond Du Lac,55,0390,039
+Wisconsin,Jefferson,55,0550,055
+Wisconsin,Kenosha,55,0590,059
+Wisconsin,La Crosse,55,0630,063
+Wisconsin,Manitowoc,55,0710,071
+Wisconsin,Marathon,55,0730,073
+Wisconsin,Milwaukee,55,0790,079
+Wisconsin,Outagamie,55,0870,087
+Wisconsin,Racine,55,1010,101
+Wisconsin,Rock,55,1050,105
+Wisconsin,Sheboygan,55,1170,117
+Wisconsin,Walworth,55,1270,127
+Wisconsin,Waukesha,55,1330,133
+Wisconsin,Winnebago,55,1390,139
+Wisconsin,Wood,55,1410,141
