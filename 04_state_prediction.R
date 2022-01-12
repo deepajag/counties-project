@@ -22,7 +22,7 @@ library(urbnmapr)
 
 
 #Filepaths
-in.path = "~/Documents/counties_project/Data/Processed/"
+in.path = "~/Documents/data_counties/Data/Processed/"
 out.path = "~/Documents/counties_project/Results/"
 
 yrbs = readRDS(paste0(in.path,"YRBS_final.RDS"))

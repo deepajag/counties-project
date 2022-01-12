@@ -21,8 +21,8 @@ library(urbnmapr)
 
 
 #Filepaths
-in.path = "~/Documents/county_project/Data/Raw/"
-out.path = "~/Documents/county_project/Data/Processed/"
+in.path = "~/Documents/data_counties/Data/Raw/"
+out.path = "~/Documents/data_counties/Data/Processed/"
 
 #############
 ##  YRBS ###
@@ -115,7 +115,7 @@ dt_small_x = dt_small[sitename %in% since_2010 & year >= 2010 & year < 2019]
 dt_small_x = dt_small_x[!is.na(age) & !is.na(sex) & !is.na(grade) & !is.na(race) & !is.na(hadsex)]
 fwrite(dt_small_x,paste0(out.path,"yrbs_since_2010.csv" ))
 
-spdf =  geojson_read("~/Documents/county_project/us_states_hexgrid.geojson", what = "sp")
+spdf =  geojson_read("~/Documents/counties_project/us_states_hexgrid.geojson", what = "sp")
 spdf@data = spdf@data %>% mutate(google_name = gsub(" \\(United States\\)", "", google_name))
 
 spdf@data = spdf@data %>% mutate(google_name = gsub(" \\(United States\\)", "", google_name))

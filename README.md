@@ -14,9 +14,9 @@ This is an exploratory script which will likely inform the first part of the res
 **Analysis scripts**
 The scripts for national, county and state predictions (using NSFG, ACS and YRBS, respectively). 1. The national prediction script consists of the model to generate predictions (currently using logistic model). 
 2. The county predictions script applies these predictions to the county level. 
-3. The state predictions script is not developed, but should be where we extrapolate trends and impute data for states without a current YRBS.
+3. The state predictions script (04_state_prediction.R) is not developed, but should be where we extrapolate trends and impute data for states without a current YRBS.
 
 **05_state_raking**
-This script 'adjusts' the county-level estimates to the state-level predictions. Currently this is only done for states with complete data.
+This script 'adjusts' the county-level estimates to the state-level predictions. Currently this is only done for states with complete data. Raking could be redone in logit space.
 
 

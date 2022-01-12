@@ -18,17 +18,16 @@ library(matrixStats)
 library(haven)
 library(censusGeography)
 library(urbnmapr)
+library(covidcast)
 
 
 #Filepaths
-in.path = "~/Documents/county_project/Data/Raw/"
-out.path = "~/Documents/county_project/Data/Processed/"
+in.path = "~/Documents/data_counties/Data/Raw/"
+out.path = "~/Documents/data_counties/Data/Processed/"
 
 ############
 ##  ACS ###
 ############
-#GIVING same number of PUMA...even though way more rows
-#acs = fread(paste0(in.path,"ACS_2019.csv"))
 acs = fread(paste0(in.path,"usa_00007.csv"))
 
 #acs = fread(paste0(in.path,"acs_income_only.csv"))
@@ -114,6 +113,10 @@ acs[,survey := "acs"]
 
 ##Merge counties
 puma_map = fread(paste0(in.path,"geocorr2018.csv"))
+county_census = data.table(county_census)
+setnames(county_census, c("FIPS","POPESTIMATE2019"),c("county_fips","pop2019"))
+county_census[,county_fips := as.numeric(county_fips)]
+puma_map = merge(puma_map, county_census[,.(county_fips, pop2019)])
 acs <- merge(acs, puma_map[,.(cntyname, county_fips, PUMA, state_code, state, pop10)], by = c("PUMA", "state_code"), allow.cartesian = T)
 counties_sf <- get_urbn_map(map = "counties", sf = TRUE)
 acs[,county_fips := as.character(county_fips)]

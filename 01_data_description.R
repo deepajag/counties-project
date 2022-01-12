@@ -16,7 +16,7 @@ library(rgeos)
 library(weights)
 
 #Filepaths
-in.path = "~/Documents/county_project/Data/Processed/"
+in.path = "~/Documents/data_counties/Data/Processed/"
 nsfg = readRDS(paste0(in.path,"NSFG_final.RDS"))
 # acs = dat$acs 
 # nsfg = dat$nsfg

@@ -23,8 +23,8 @@ library(urbnmapr)
 
 
 #Filepaths
-in.path = "~/Documents/county_project/Data/Processed/"
-out.path = "~/Documents/county_project/Results/"
+in.path = "~/Documents/data_counties/Data/Processed/"
+out.path = "~/Documents/counties_project/Results/"
 
   
 nsfg = readRDS(paste0(in.path,"NSFG_final.RDS"))
