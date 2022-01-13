@@ -10,7 +10,7 @@ For surveys NSFG, ACS and YRBS (labelled 00a, 00b and 00c), these scripts take r
 **01_data_description**
 This is an exploratory script which will likely inform the first part of the results section, e.g. determining sample sizes, average characteristics. 
 
-**Analysis scripts**
+**Prediction (Analysis) scripts**
 The scripts for national, county and state predictions (using NSFG, ACS and YRBS, respectively). 
 
 1. The national prediction script consists of the model to generate predictions (currently using logistic model).
