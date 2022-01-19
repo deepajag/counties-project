@@ -22,6 +22,7 @@ library(caret)
 library(urbnmapr)
 library(boot)
 library(covidcast)
+library(viridis)
 
 
 #Filepaths
@@ -68,9 +69,15 @@ county_groups <- countydata %>%
 
 setnames(acs,"state_code","state_fips")
 household_data <- left_join(counties_sf, acs[,.(county_fips, raked)], by="county_fips")
-ggplot(household_data) + geom_sf(mapping = aes(fill = raked),color = "lightgrey", size = 0.1) +
-  coord_sf(datum = NA) + scale_fill_continuous(limits = c(0.1,0.8))
+household_data$group <- cut(household_data$raked, 
+                            c(0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8), 
+                            include.lowest = TRUE)
 
+ggplot(household_data) + 
+  geom_sf(mapping = aes(fill = factor(group)), size = 0.05, col="white") +
+  coord_sf(datum = NA) + 
+  scale_fill_manual(breaks = sort(unique(household_data$group)),
+                     values = c("darkblue","red","green","darkorange", "brown","pink"))
 
 ##State averages only for comparison
 s = svydesign(ids = ~0, weights = ~weight, data = yrbs)
@@ -94,13 +101,25 @@ county_groups <- countydata %>%
 
 ##ACS
 household_data <- left_join(counties_sf, acs_strata[,.(state_abbv = state, acs_state)], by="state_abbv")
-ggplot(household_data) + geom_sf(mapping = aes(fill = acs_state),color = "lightgrey", size = 0.05) +
-  coord_sf(datum = NA) + scale_fill_continuous(limits = c(0.2,0.6))
+household_data$group <- cut(household_data$acs_state, 
+                            c(0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8), 
+                            include.lowest = TRUE)
+ggplot(household_data) + 
+  geom_sf(mapping = aes(fill = factor(group)), size = 0.05, col="white") +
+  coord_sf(datum = NA) + 
+  scale_fill_manual(breaks = sort(unique(household_data$group)),
+                     values = c("green","darkorange"))
 
 #YRBS
 household_data <- left_join(counties_sf, yrbs_strata[,.(state_abbv = state, yrbs_state)], by="state_abbv")
-ggplot(household_data) + geom_sf(mapping = aes(fill = yrbs_state),color = "lightgrey", size = 0.05) +
-  coord_sf(datum = NA) + scale_fill_continuous(limits = c(0.2,0.6))
+household_data$group <- cut(household_data$yrbs_state, 
+                            c(0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8), 
+                            include.lowest = TRUE)
+ggplot(household_data) + 
+  geom_sf(mapping = aes(fill = factor(group)), size = 0.05, col="white") +
+  coord_sf(datum = NA) + 
+  scale_fill_manual(breaks = sort(unique(household_data$group)),
+                     values = c("green","darkorange", "brown"))
 
 #Scatterplot comparing states
 all_state = merge(acs_strata[,.(state_abbv = state,  acs_state)],
